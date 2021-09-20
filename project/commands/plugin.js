@@ -68,7 +68,7 @@ exports.handler = async ( argv ) => {
      */
     await terminal.install( {
         describe: `${ terminal.step }. Operator is cloning plugin repository`,
-        event:    operator.getRepo( 'https://github.com/wp-strap/wordpress-plugin-boilerplate.git', projectPath ),
+        event:    operator.getRepo( 'https://github.com/MinKaizen/wordpress-plugin-boilerplate.git', projectPath ),
     } );
     terminal.setNextStep();
 
